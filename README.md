@@ -4,7 +4,7 @@ Link do site: <a href="https://space-shooters.pages.dev/">Space Shooter</a>
 
 ## Screenshot
 
-![image](https://user-images.githubusercontent.com/84540148/163687680-1bafb6a4-0f9a-4d70-897c-1a9878d931b2.png)
+![image](https://user-images.githubusercontent.com/84540148/163687698-3ca3bf16-e25f-481d-bc05-fddb52b62753.png)
 
 
 ## Meu processo

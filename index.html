@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Shooter</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <main id="game-area" class="game-area">
+    <div id="start-game" class="container">
+      <h1 class="title">Space Shooters</h1>
+      <p id="start-message" class="instruction">press any key to start</p>
+    </div>
+    <div id="game-over" class="container hide">
+      <p class="title">Game Over</p>
+      <p id="retry-message" class="instruction">press any key to try again</p>
+    </div>
+    <img src="/imgs/player-ship.png" id="ship" class="ship" alt="Player">
+    <p id="score" class="score">0</p>
+  </main>
+
+  <script src="/script.js"></script>
+</body>
+</html>

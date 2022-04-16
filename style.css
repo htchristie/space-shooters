@@ -1,0 +1,98 @@
+:root {
+  --clr-txt: #fff;
+  --clr-background:#000;
+  --game-width: 640px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+  color: var(--clr-txt);
+  background-color: var(--clr-background);
+  margin: 0;
+}
+
+.game-area {
+  width: var(--game-width);
+  height: 480px;
+  position: relative;
+  background: var(--clr-background) url(/imgs/space-bg.jpg) no-repeat center;
+  overflow: hidden;
+}
+
+.ship {
+  --width: 60px;
+  width: var(--width);
+  height: 50px;
+  position: absolute;
+  bottom: 2%;
+  left: 290px;
+}
+
+.alien {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+}
+
+.laser-beam {
+  width: 10px;
+  height: 30px;
+  position: absolute;
+  bottom: 65px;
+  left: 315px;
+}
+
+.dead-alien {
+  width: 40px;
+  height: auto;
+  position: absolute;
+  opacity: 1;
+}
+
+.score {
+  position: absolute;
+  top: 0;
+  right: 3%;
+  font-size: 1rem;
+}
+
+.container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.instruction {
+  font-size: 1rem;
+  text-transform: lowercase;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.hide {
+  display: none;
+}
+
